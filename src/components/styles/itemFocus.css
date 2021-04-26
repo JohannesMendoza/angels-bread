@@ -1,0 +1,28 @@
+.itemFocusContainer{
+    display: flex;
+    flex-direction: row;
+}
+.itemFocusInformation{
+
+}
+.itemFocusImage{
+    width: 300px;
+    margin: 1rem 3rem;
+}
+.itemFocusName{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px){
+    .itemFocusContainer{
+        display: block;
+    }
+    .itemFocusImage{
+        width: 100%;
+        margin: 0px;
+    }
+    .itemFocusInformation{
+        padding-left: 10px;
+    }
+}

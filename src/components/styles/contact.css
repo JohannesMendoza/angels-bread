@@ -1,0 +1,24 @@
+.Contact{
+    color: purple;
+}
+
+.social-icon{
+    width:100px;
+
+}
+
+.social-button{
+    background-color: transparent;
+    border-color: transparent;
+}
+.social-button:hover{
+    color: #03befc;
+}
+
+.social-button:active{
+    border-color: transparent;
+}
+
+.social-button:focus{
+    border-color: transparent;
+}

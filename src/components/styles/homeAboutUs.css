@@ -1,0 +1,41 @@
+.aboutUsFlexContainer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding: 2em;
+}
+.aboutUsPic{
+    width: 40%;
+    margin: 2em;
+    padding: 2em;
+}
+
+.aboutUsDescription{
+    width: 40%;
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    .aboutUsFlexContainer{
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .aboutUsPic{
+        width: 100%;
+        margin: 0em;
+        padding: 0em;
+        display: none;
+    }
+    .aboutUsDescription{
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+}

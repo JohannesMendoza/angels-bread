@@ -1,0 +1,61 @@
+.testing{
+    height: max-content;
+    background-color: transparent;
+}
+.menuNavTitle{
+    color: burlywood;
+    font-weight: bold;
+    font-size: large;
+    padding-left: 20px;
+    text-decoration: underline;
+}
+.menuNavButton {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    color: black;
+    font-size: large;
+    font-family: helvetica, sans, monospace;
+}
+
+.menuNavButton:hover{
+    color: rgb(114, 114, 114);
+    cursor: pointer;
+}
+.menuNavButton:active{
+    outline: 0;
+}
+.menuNavButton:focus{
+    outline: 0;
+}
+
+.menuNavList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menuNavList a {
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .menuNavTitle{
+        font-size: smaller;
+    }
+    .menuNavButton{
+        font-size: smaller;
+        padding: 15px 0px;
+    }
+    .menuNavList{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+}

@@ -1,0 +1,121 @@
+.nav-bar{
+    background-color: rgb(195, 238, 255);
+    padding: 0 1rem;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0 0 0 2px rgba(0 0 0 / 5%);
+}
+.popup{
+    height: 40px;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 0px 0px;
+}
+.name{
+    float: left;
+    color: black;
+    padding: 31px 0;
+    margin: auto auto;
+    font-family:  ;
+    letter-spacing: 0.1rem;
+    font-weight: bolder;
+    font-size: medium;
+}
+.nav-bar-buttons {
+    /*width: 100%;*/
+    list-style-type: none;
+}
+.nav-bar-buttons button{
+  margin: auto auto;
+  background-color: transparent;
+  color: black;
+  padding: 0rem 0.5rem;
+  border: 1px solid transparent;
+  font-weight: normal;
+  font-family: helvetica, sans, monospace;
+  font-size: large;
+  height: 30px;
+  /*letter-spacing: 0.2rem;*/
+}
+.menuText button{
+  background-color: rgb(255, 173, 20);
+  color: white;
+  border-radius: 15px;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: white 0px 0px 1px;
+}
+.nav-bar button:hover{
+    color: rgb(114, 114, 114);
+    cursor: pointer;
+}
+.nav-bar button:active{
+    outline: 0;
+}
+.nav-bar button:focus{
+    outline: 0;
+}
+.nav__toggler {
+    transition: box-shadow 0.15s;
+    cursor: pointer;
+}
+.toggler-button{
+  background-color: transparent;
+  border: none;
+  margin: 0px 0px;
+}
+
+.collapsible__content {
+    max-height: 0;
+    margin: 0px;
+    overflow: hidden;
+    opacity: 1;
+    transition: all 0.3s;
+  }
+
+  .collapsible--expanded .collapsible__content {
+    max-height: 100vh;
+    opacity: 1;
+    /*padding: 0px;*/
+  }
+
+  .nav-bar.collapsible--expanded .nav__toggler {
+    opacity: 1;
+    box-shadow: 0 0 0 3px #666;
+    border-radius: 5px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .nav__toggler {
+      display: none;
+    }
+    .name{
+      height: 40px;
+      padding: 25px 0;
+      font-size: xx-large;
+    }
+    .nav-bar-buttons ul{
+      height: 30px;
+    }
+  
+    .nav-bar-buttons {
+      width: auto;
+      display: flex;
+      font-size: 1.6rem;
+      max-height: 100%;
+      opacity: 1;
+    }
+    .nav-bar-buttons button{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+  
+    .nav-bar button{
+      border: 0;
+    }
+  }
