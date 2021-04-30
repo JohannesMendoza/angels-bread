@@ -21,7 +21,7 @@ class MenuItem extends Component {
                     <Link to={{
                         pathname: "/ItemFocus/" + this.props.pathName,
                         state: {
-                            image: `${process.env.PUBLIC_URL}/TeamLogos/Sundays/${this.props.pathName}.png`,
+                            image: `${process.env.PUBLIC_URL}/menupics/${this.props.pathName}.jpg`,
                             price: this.props.price,
                             name: this.props.name,
                             description: this.props.description

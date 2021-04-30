@@ -9,6 +9,7 @@ class ItemFocus extends Component {
 
     }
     render() {
+        console.log(this.props.location.state.image);
         return (
             <React.Fragment>
                 <div className="itemFocusContainer">
