@@ -15,26 +15,7 @@ import Footer from './components/footer'
 import Menu from './components/menu'
 import ItemFocus from './components/itemFocus'
 import BounceLoader from "react-spinners/BounceLoader";
-/*function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Angel's Bread
-        </a>
-      </header>
-    </div>
-  );
-}*/
+
 class App extends Component {
   constructor(props) {
     super(props);

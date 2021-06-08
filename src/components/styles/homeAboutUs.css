@@ -3,12 +3,14 @@
     flex-direction: row;
     margin-left: 5em;
     margin-right: 5em;
-    padding: 2em;
+    padding-top: 0.5em;
 }
 .aboutUsPic{
     width: 40%;
     margin: 2em;
     padding: 2em;
+    border-radius: 15px;
+    border: 10px, rgba(97, 0, 252, 0.459);
 }
 
 .aboutUsDescription{

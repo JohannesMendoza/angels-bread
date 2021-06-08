@@ -16,10 +16,10 @@ class Home extends Component {
             <div>
                 <link href="https://fonts.googleapis.com/css?family=Archivo:500|Open+Sans:300,700" rel="stylesheet"></link>
                 <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Work+Sans:300" rel="stylesheet"></link>
-                <div className="homePanelContainer" backgroundImage={`url(${Background})`}>
+                {/*<div className="homePanelContainer" backgroundImage={`url(${Background})`}>
                     <h1 className="homePanelTitle">WELCOME TO ANGEL'S BREAD!</h1>
                     <p className="homePanelDescription">We are home to <p className="goldText">quality handcrafted breads</p>.</p>
-                </div>
+        </div>*/}
                 <HomeGallery />
                 <HomeAboutUs />
                 <HomeOperation />

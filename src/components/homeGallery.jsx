@@ -20,6 +20,7 @@ import pic8 from "../images/homeGallery/C6F0B1EF-65F6-48EE-A3EF-A86AAE9CDF3D.jpg
 import pic9 from "../images/homeGallery/7CA9DC74-7799-4AA2-8E72-CBCD29518027_1_201_a.jpg"
 import pic10 from "../images/homeGallery/IMG_5829.jpg";
 import pic11 from "../images/homeGallery/IMG_1304.jpg";
+import pic12 from "../images/homeGallery/IMG_1303-2.jpg";
 
 
 const photos = [
@@ -67,8 +68,8 @@ const photos = [
 
 const photos2 = [
     {
-        original: pic11,
-        thumbnail: pic11
+        original: pic12,
+        thumbnail: pic12
     },
     {
         original: pic5,
@@ -109,7 +110,7 @@ class HomeGallery extends Component {
     render() {
         return (
             <React.Fragment>
-                <ImageGallery items={photos2} showThumbnails={false} />
+                <ImageGallery items={photos2} showThumbnails={false} showNav={false} />
             </React.Fragment>
         );
     }
