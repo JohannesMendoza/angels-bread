@@ -52,4 +52,5 @@
 	* When a category is selected, the state of the Menu component is updated and items from the new category are fetched
 		* This will be optimized in the future, where the items will be filtered locally on the browser instead of refetching the new content
 * Menu Items are linked to their corresponding MenuFocus components, which provide more details on the product in question
+* ![](https://github.com/JohannesMendoza/angels-bread/blob/master/demo_images/Menu%20Items.png)
 
