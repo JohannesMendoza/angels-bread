@@ -26,6 +26,7 @@
 * The logo and name are wrapped in a button that routes the main content to the home page
 * The menu and contact button route the main content to the menu and contact information, respectively
 * The navigation bar collapses when the width of the browser grows smaller than 768px for mobile optimization
+* ![](https://github.com/JohannesMendoza/angels-bread/blob/master/demo_images/navbar.png)
 
 ### Home Page
 * The home page's purpose is to welcome the users who have found the application through normal means
