@@ -26,7 +26,6 @@
 * The logo and name are wrapped in a button that routes the main content to the home page
 * The menu and contact button route the main content to the menu and contact information, respectively
 * The navigation bar collapses when the width of the browser grows smaller than 768px for mobile optimization
-* 
 
 ### Home Page
 * The home page's purpose is to welcome the users who have found the application through normal means
@@ -35,5 +34,6 @@
 		* The image gallery features premier images with photoshopped text welcoming the user
 		* The image gallery is sourced from a node package called "react-image-gallery" found at https://www.npmjs.com/package/react-image-gallery
 		* 
-* The 
+* The n
+* ![](https://github.com/JohannesMendoza/angels-bread/blob/master/demo_images/homepage.png)
 
