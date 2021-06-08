@@ -58,5 +58,5 @@
 * The contact component is a component that simply contains links to all social media for the company
 
 ### Footer
-* The footer component 
+* The footer component has all links to social media, as well as any copyright content necessary for the company
 
