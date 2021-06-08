@@ -33,8 +33,8 @@
 * Three different child components are featured in this component: Image gallery, About us, How to order
 	* Image Gallery
 		* The image gallery features premier images with photoshopped text welcoming the user
-		* The image gallery is sourced from a node package called "react-image-gallery" found at https://www.npmjs.com/package/react-image-gallery
-		* 
-* The n
+			* The gallery functionality is sourced from a node package called "react-image-gallery" found at https://www.npmjs.com/package/react-image-gallery
+	* About Us/How to order
+		* These sections are displayed with a row flex, where the company description is on the right of an accompanying image
 * ![](https://github.com/JohannesMendoza/angels-bread/blob/master/demo_images/homepage.png)
 
