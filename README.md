@@ -11,8 +11,15 @@
 ### Table of Contents
 * Layout
 * Navigation Bar
+	* Buttons
 * Home Page
+	* Image Gallery
+	* About Us
+	* How to Order
 * Menu
+	* Menu Navigation
+	* Menu Items
+	* Menu Item Focus
 * Contact
 * Footer
 
@@ -37,4 +44,12 @@
 	* About Us/How to order
 		* These sections are displayed with a row flex, where the company description is on the right of an accompanying image
 * ![](https://github.com/JohannesMendoza/angels-bread/blob/master/demo_images/homepage.png)
+### Menu
+* The menu component allows users to view an extensive menu of the bakery products
+* The component connects to the Angel's Bread Back-End API to fetch menu information
+* Menu Navigation
+	* There is a menu filter component on the left side that allows users to filter out menu items based on category
+	* When a category is selected, the state of the Menu component is updated and items from the new category are fetched
+		* This will be optimized in the future, where the items will be filtered locally on the browser instead of refetching the new content
+* Menu Items are linked to their corresponding MenuFocus components, which provide more details on the product in question
 
