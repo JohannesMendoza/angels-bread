@@ -54,3 +54,9 @@
 * Menu Items are linked to their corresponding MenuFocus components, which provide more details on the product in question
 * ![](https://github.com/JohannesMendoza/angels-bread/blob/master/demo_images/Menu%20Items.png)
 
+### Contact
+* The contact component is a component that simply contains links to all social media for the company
+
+### Footer
+* The footer component 
+
